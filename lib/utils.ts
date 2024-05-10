@@ -65,6 +65,8 @@ export const formatDateTime = (dateString: Date) => {
   };
 };
 
+//* https://dev.to/dhrn/currency-formatting-in-javascript-10h1
+
 export function formatAmount(amount: number): string {
   const formatter = new Intl.NumberFormat("en-US", {
     style: "currency",

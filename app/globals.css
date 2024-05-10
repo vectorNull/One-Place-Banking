@@ -60,10 +60,6 @@
     @apply flex items-center justify-center;
   }
 
-  .header-2 {
-    @apply text-18 font-semibold text-gray-900;
-  }
-
   .text-10 {
     @apply text-[10px] leading-[14px];
   }
