@@ -3,7 +3,7 @@
 import React from 'react'
 import CountUp from 'react-countup'
 
-const AnimatedBalance = ({ amount } : { amount: number}) => {
+const AnimatedBalance = ({ amount } : { amount: number }) => {
   return (
     <div className='w-full'>
       <CountUp 
