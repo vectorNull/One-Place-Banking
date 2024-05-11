@@ -19,7 +19,17 @@ const DoughnutChart = ( accounts : DoughnutChartProps ) => {
     ],
   }
   
-  return <Doughnut data={data} />
+  return <Doughnut 
+    data={data}
+    options={{
+      cutout: '60%',
+      plugins: {
+        legend: {
+          display: false
+        }
+      }
+    }} 
+    />
 };
 
 export default DoughnutChart;
